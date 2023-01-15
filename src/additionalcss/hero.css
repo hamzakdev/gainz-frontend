@@ -1,0 +1,44 @@
+.hero-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.hero-button-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+.hero-button{
+    font-size: 2vmax;
+    border: none;
+    padding: 1.6vmax;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.3s ease all;
+}.hero-button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    /* color: black; */
+    cursor: pointer;
+}
+.hero-img-div{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.hero-img-div> div{
+    position: absolute;
+width: 100%;
+height: 300px;
+top: -250px;
+z-index: 0;
+}
+

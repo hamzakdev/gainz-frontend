@@ -1,0 +1,39 @@
+.all-products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination{
+    display: flex;
+}
+
+.page-list{
+    padding: 1vmax 2vmax;
+    font-size: 20px;
+    border: 1px solid white;
+    /* border-radius: 15px; */
+    /* margin-left: 10px; */
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+.page-list:first-child{
+    border-radius: 15px 0 0 15px ;
+}
+.page-list:last-child{
+    border-radius: 0 15px 15px 0 ;
+}
+.page-list:hover{
+    background-color: white;
+    color: black;
+}
+.page-link{
+    text-decoration: none;
+    color: inherit;
+}
+.page-list-active{
+    background-color: white;
+    color: black;
+}

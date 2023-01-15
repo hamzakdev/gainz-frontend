@@ -1,0 +1,7 @@
+.featured-product-container{
+    display: flex;
+ width: 70%;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 4em;
+}
